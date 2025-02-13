@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "mood",
+      "patterns": [
+        "How are you",
+        "What is your mood today"
+        ],
+      "responses": [
+        "In very good mood",
+        "Hopping fine like you"
+        ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell body lotion and hair care",
+        "We have body lotion and hair care",
+        "All available we have is body lotion and hair care"
+      ]
+    },{
+      "tag": "hair care",
+      "patterns": [
+        "What kinds of hair care ?",
+        "What hair care do you sell?"
+      ],
+      "responses": [
+        "We sell shampoo and Hair Masks",
+        "We have shampoo and Hair Masks",
+        "All available we have is shampoo and Hair Masks"
+      ]
+    },{
+      "tag": "lotions",
+      "patterns": [
+        "What lotions ?",
+        "What kinds of lotions are there?",
+        "What lotions do you sell?"
+      ],
+      "responses": [
+        "We sell body lotion for hydration and cellulite",
+        "We have body lotion for hydration and cellulite",
+        "All available we have for hydration and cellulite"
+      ]
+    }, {
+      "tag": "size",
+      "patterns": [
+        "Which size do you have?",
+        "What kinds of size are there?"
+
+      ],
+      "responses": [
+        "We have size from 250ml to 750ml"
+
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take cash?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },{
+      "tag": "delivery from UK",
+      "patterns": [
+        "Is there available delivery to UK ",
+        "What about delivery to UK",
+        "Do you delivery to UK"
+      ],
+      "responses": [
+        "YES, we can, it takes 2-4 days more than usual",
+        "YES, shipping takes 2-4 days more than usual"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "What is the name of fly who eats honey? MohaMed"
+      ]
+    }
+  ]
+}
