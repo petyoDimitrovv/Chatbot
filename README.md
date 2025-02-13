@@ -62,7 +62,7 @@ Chatbot-master/
 
 ## Author
 
-PetyoDimitrov - [[Your GitHub Profile](https://github.com/petyoDimitrovv)]
+PetyoDimitrov - [[GitHub Profile](https://github.com/petyoDimitrovv)]
 
 ## License
 
